@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <script>
+        var x=25;
+        x*=15;
+        console.log(x);
+    </script>
+    
+</body>
+</html>
