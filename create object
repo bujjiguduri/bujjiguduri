@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <script>
+        const person = {
+  firstName: "deepthi",
+  lastName : "priya",
+  id     :  2907
+};
+console.log(person);
+    </script>
+    
+</body>
+</html>
