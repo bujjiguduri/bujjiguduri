@@ -1,0 +1,14 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    <h1>javascript strings</h1>
+    <script>
+       var Str1 = "Deepthi";
+       var Str2=Str1.replace("e","@");
+       console.log(Str2);
+        </script>
+</body>
+</html>
