@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript strings</title>
+</head>
+<body>
+<h1>strings</h1>
+    <script>
+let str = "Deepthi,kaveri,Deepu";
+console.log (str.substring(6,13));
+</script>
+</body>
+</html>
