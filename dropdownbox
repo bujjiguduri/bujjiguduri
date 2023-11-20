@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>deepthi</title>
+</head>
+<body>
+    <head>
+        <title>dropdownbox</title>
+    </head>
+    <body>
+       <h1 align= "Center">TABLE</h1>
+       <hr/>
+       <hr/>
+       <input type="text" id="searchInput" oninput="filterCountries()" placeholder="Search for a country...">
+       <select id="countryDropdown">
+<option>choose your country</option> 
+<option class="opt"> Afghanistan                            </option>
+<option class="opt"> Albania                                </option>
+<option class="opt"> Algeria                                </option>
+<option class="opt"> Andorra                                </option>
+<option class="opt"> Angola                                 </option>
+<option class="opt"> Antigua and Barbuda                    </option>
+<option class="opt"> Argentina                              </option>
+<option class="opt"> Armenia                               </option>
+<option class="opt"> Australia                              </option>
+<option class="opt"> Austria                                </option>
+<option class="opt"> Azerbaijan                             </option>
+<option class="opt"> Bahamas                                </option>
+<option class="opt"> Bahrain                                </option>
+<option class="opt"> Bangladesh                             </option>
+<option class="opt"> Barbados                               </option>
+<option class="opt"> Belarus                                </option>
+<option class="opt"> Belgium                                </option>
+<option class="opt"> Belize                                 </option>
+<option class="opt"> Benin                                  </option>
+<option class="opt"> Bhutan                                 </option>
+<option class="opt"> Bolivia                                </option>
+<option class="opt"> Bosnia and Herzegovina                 </option>
+<option class="opt"> Botswana                               </option>
+<option class="opt"> Brazil                                 </option>
+<option class="opt"> Brunei                                 </option>
+<option class="opt"> Bulgaria                               </option>
+<option class="opt"> Burkina Faso                           </option>
+<option class="opt"> Burundi                                </option>
+<option class="opt"> Côte d'Ivoire                          </option>
+<option class="opt"> Cabo Verde                             </option>
+<option class="opt"> Cambodia                               </option>
+<option class="opt"> Cameroon                               </option>
+<option class="opt"> Canada                                 </option>
+<option class="opt"> Central African Republic               </option>
+<option class="opt"> Chad                                   </option>
+<option class="opt"> Chile                                  </option>
+<option class="opt"> China                                  </option>
+<option class="opt"> Colombia                               </option>
+<option class="opt"> Comoros                                </option>
+<option class="opt"> Congo (Congo-Brazzaville)              </option>
+<option class="opt"> Costa Rica                             </option>
+<option class="opt"> Croatia                                </option>
+<option class="opt"> Cuba                                   </option>
+<option class="opt"> Cyprus                                 </option>
+<option class="opt"> Czechia (Czech Republic)               </option>
+<option class="opt"> Democratic Republic of the Congo       </option>
+<option class="opt"> Denmark                                </option>
+<option class="opt"> Djibouti                               </option>
+<option class="opt"> Dominica                               </option>
+<option class="opt"> Dominican Republic                     </option>
+<option class="opt"> Ecuador                                </option>
+<option class="opt"> Egypt                                  </option>
+<option class="opt"> El Salvador                            </option>
+<option class="opt"> Equatorial Guinea                      </option>
+<option class="opt"> Eritrea                                </option>
+<option class="opt"> Estonia                                </option>
+<option class="opt"> Eswatini (fmr. "Swaziland")            </option>
+<option class="opt"> Ethiopia                               </option>
+<option class="opt"> Fiji                                   </option>
+<option class="opt"> Finland                                </option>
+<option class="opt"> France                                 </option>
+<option class="opt"> Gabon                                  </option>
+<option class="opt"> Gambia                                 </option>
+<option class="opt"> Georgia                                </option>
+<option class="opt"> Germany                                </option>
+<option class="opt"> Ghana                                  </option>
+<option class="opt"> Greece                                 </option>
+<option class="opt"> Grenada                                </option>
+<option class="opt"> Guatemala                              </option>
+<option class="opt"> Guinea                                 </option>
+<option class="opt"> Guinea-Bissau                          </option>
+<option class="opt"> Guyana                                 </option>
+<option class="opt"> Haiti                                  </option>
+<option class="opt"> Holy See                               </option>
+<option class="opt"> Honduras                               </option>
+<option class="opt"> Hungary                                </option>
+<option class="opt"> Iceland                                </option>
+<option class="opt"> India                                  </option>
+<option class="opt"> Indonesia                              </option>
+<option class="opt"> Iran                                   </option>
+<option class="opt"> Iraq                                   </option>
+<option class="opt"> Ireland                                </option>
+<option class="opt"> Israel                                 </option>
+<option class="opt"> Italy                                  </option>
+<option class="opt"> Jamaica                                </option>
+<option class="opt"> Japan                                  </option>
+<option class="opt"> Jordan                                 </option>
+<option class="opt"> Kazakhstan                             </option>
+<option class="opt"> Kenya                                  </option>
+<option class="opt"> Kiribati                               </option>
+<option class="opt"> Kuwait                                 </option>
+<option class="opt"> Kyrgyzstan                             </option>
+<option class="opt"> Laos                                   </option>
+<option class="opt"> Latvia                                 </option>
+<option class="opt"> Lebanon                                </option>
+<option class="opt"> Lesotho                                </option>
+<option class="opt"> Liberia                                </option>
+<option class="opt"> Libya                                  </option>
+<option class="opt"> Liechtenstein                          </option>
+<option class="opt"> Lithuania                              </option>
+<option class="opt"> Luxembourg                             </option>
+<option class="opt"> Madagascar                             </option>
+<option class="opt"> Malawi                                 </option>
+<option class="opt"> Malaysia                               </option>
+<option class="opt"> Maldives                               </option>
+<option class="opt"> Mali                                   </option>
+<option class="opt"> Malta                                  </option>
+<option class="opt"> Marshall Islands                       </option>
+<option class="opt"> Mauritania                             </option>
+<option class="opt"> Mauritius                              </option>
+<option class="opt"> Mexico                                 </option>
+<option class="opt"> Micronesia                             </option>
+<option class="opt"> Moldova                                </option>
+<option class="opt"> Monaco                                 </option>
+<option class="opt"> Mongolia                               </option>
+<option class="opt"> Montenegro                             </option>
+<option class="opt"> Morocco                                </option>
+<option class="opt"> Mozambique                             </option>
+<option class="opt"> Myanmar (formerly Burma)               </option>
+<option class="opt"> Namibia                                </option>
+<option class="opt"> Nauru                                  </option>
+<option class="opt"> Nepal                                  </option>
+<option class="opt"> Netherlands                            </option>
+<option class="opt"> New Zealand                            </option>
+<option class="opt"> Nicaragua                              </option>
+<option class="opt"> Niger                                  </option>
+<option class="opt"> Nigeria                                </option>
+<option class="opt"> North Korea                            </option>
+<option class="opt"> North Macedonia                        </option>
+<option class="opt"> Norway                                 </option>
+<option class="opt"> Oman                                   </option>
+<option class="opt"> Pakistan                               </option>
+<option class="opt"> Palau                                  </option>
+<option class="opt"> Palestine State                        </option>
+<option class="opt"> Panama                                 </option>
+<option class="opt"> Papua New Guinea                       </option>
+<option class="opt"> Paraguay                               </option>
+<option class="opt"> Peru                                   </option>
+<option class="opt"> Philippines                            </option>
+<option class="opt"> Poland                                 </option>
+<option class="opt"> Portugal                               </option>
+<option class="opt"> Qatar                                  </option>
+<option class="opt"> Romania                                </option>
+<option class="opt"> Russia                                 </option>
+<option class="opt"> Rwanda                                 </option>
+<option class="opt"> Saint Kitts and Nevis                  </option>
+<option class="opt"> Saint Lucia                            </option>
+<option class="opt"> Saint Vincent and the Grenadines       </option>
+<option class="opt"> Samoa                                  </option>
+<option class="opt"> San Marino                             </option>
+<option class="opt"> Sao Tome and Principe                  </option>
+<option class="opt"> Saudi Arabia                           </option>
+<option class="opt"> Senegal                                </option>
+<option class="opt"> Serbia                                 </option>
+<option class="opt"> Seychelles                             </option>
+<option class="opt"> Sierra Leone                           </option>
+<option class="opt"> Singapore                              </option>
+<option class="opt"> Slovakia                               </option>
+<option class="opt"> Slovenia                               </option>
+<option class="opt"> Solomon Islands                        </option>
+<option class="opt"> Somalia                                </option>
+<option class="opt"> South Africa                           </option>
+<option class="opt"> South Korea                            </option>
+<option class="opt"> South Sudan                            </option>
+<option class="opt"> Spain                                  </option>
+<option class="opt"> Sri Lanka                              </option>
+<option class="opt"> Sudan                                  </option>
+<option class="opt"> Suriname                               </option>
+<option class="opt"> Sweden                                 </option>
+<option class="opt"> Switzerland                            </option>
+<option class="opt"> Syria                                  </option>
+<option class="opt"> Tajikistan                             </option>
+<option class="opt"> Tanzania                               </option>
+<option class="opt"> Thailand                               </option>
+<option class="opt"> Timor-Leste                            </option>
+<option class="opt"> Togo                                   </option>
+<option class="opt"> Tonga                                  </option>
+<option class="opt"> Trinidad and Tobago                    </option>
+<option class="opt"> Tunisia                                </option>
+<option class="opt"> Turkey                                 </option>
+<option class="opt"> Turkmenistan                           </option>
+<option class="opt"> Tuvalu                                 </option>
+<option class="opt"> Uganda                                 </option>
+<option class="opt"> Ukraine                                </option>
+<option class="opt"> United Arab Emirates                   </option>
+<option class="opt"> United Kingdom                         </option>
+<option class="opt"> United States of America               </option>
+<option class="opt"> Uruguay                                </option>
+<option class="opt"> Uzbekistan                             </option>
+<option class="opt"> Vanuatu                                </option>
+<option class="opt"> Venezuela                              </option>
+<option class="opt"> Vietnam                                </option>                        
+<option class="opt"> Yemen                                  </option>
+<option class="opt"> Zambia                                 </option>
+<option class="opt"> Zimbabwe								                 </option>
+       </select>
+    
+       <button id = "Click">ClickMe</button>
+       <script>
+       function filterCountries() {
+    const filterValue = searchInput.value.toLowerCase();
+    const options = countryDropdown.options;
+
+    for (let i = 0; i < options.length; i++) {
+        const option = options[i];
+        const text = option.value.toLowerCase();
+
+        if (text.startsWith(filterValue)) {
+            option.style.display = "block";
+        } else {
+            option.style.display = "none";
+        }
+    }
+}
+      </script>
+    </body>
+</html> 
