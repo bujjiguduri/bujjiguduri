@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.color-button {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    font-size: 20px;
+}
